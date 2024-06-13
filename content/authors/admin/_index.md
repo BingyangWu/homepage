@@ -24,11 +24,11 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include machine learning systems, video conferencing and cloud computing.
 
-# Interests to show in About widget
-interests:
-  - Machine Learning Systems
-  - Video Conferencing
-  - Cloud Computing
+# # Interests to show in About widget
+# interests:
+#   - Machine Learning Systems
+#   - Video Conferencing
+#   - Cloud Computing
 
 # Education to show in About widget
 education:
@@ -46,13 +46,13 @@ experience:
       institution: Meituan
       year: Jun. 2024 - Present
     - course: Research Intern
-      institution: Shanghai AI Lab NDS Group
+      institution: Shanghai AI Lab, NDS Group
       year: Oct. 2023 - Jun. 2024  
     - course: Research Intern
-      institution: Alibaba Group DAMO Academy
+      institution: Alibaba, DAMO Academy
       year: Nov. 2021 - Sept. 2023
     - course: Research Intern
-      institution: Tencent TEG
+      institution: Tencent, TEG
       year: Apr. 2021 - Jun. 2021
 
 # Social/Academic Networking

@@ -35,7 +35,7 @@ sections:
   #       gradient_end: '#1976d2'
   #       gradient_start: '#004ba0'
   #       text_color_light: true
-  - block: about.biography
+  - block: v1/about
     id: about
     content:
       title: Biography
@@ -58,34 +58,34 @@ sections:
   #         description: 10%
   #         icon: camera-retro
   #         icon_pack: fas
-  - block: experience
-    content:
-      title: Experience
-      # Date format for experience
-      #   Refer to https://wowchemy.com/docs/customization/#date-format
-      # date_format: Jan 2006
-      items:
-        - title: Research Intern
-          company: Shanghai AI Lab, NDS Group
-          company_url: ''
-          # company_logo: org-gc
-          # location: California
-          date_start: '2023-10-01'
-          date_end: '2024-06-01'
-        - title: Research Intern
-          company: Alibaba, DAMO Academy
-          company_url: ''
-          # company_logo: org-gc
-          # location: California
-          date_start: '2021-11-01'
-          date_end: '2023-09-01'
-        - title: Research Intern
-          company: Tencent, TEG
-          company_url: ''
-          # company_logo: org-gc
-          # location: California
-          date_start: '2021-04-01'
-          date_end: '2021-06-01'
+  # - block: experience
+  #   content:
+  #     title: Experience
+  #     # Date format for experience
+  #     #   Refer to https://wowchemy.com/docs/customization/#date-format
+  #     # date_format: Jan 2006
+  #     items:
+  #       - title: Research Intern
+  #         company: Shanghai AI Lab, NDS Group
+  #         company_url: ''
+  #         # company_logo: org-gc
+  #         # location: California
+  #         date_start: '2023-10-01'
+  #         date_end: '2024-06-01'
+  #       - title: Research Intern
+  #         company: Alibaba, DAMO Academy
+  #         company_url: ''
+  #         # company_logo: org-gc
+  #         # location: California
+  #         date_start: '2021-11-01'
+  #         date_end: '2023-09-01'
+  #       - title: Research Intern
+  #         company: Tencent, TEG
+  #         company_url: ''
+  #         # company_logo: org-gc
+  #         # location: California
+  #         date_start: '2021-04-01'
+  #         date_end: '2021-06-01'
 # - block: experience
   #   content:
   #     title: Experience
