@@ -35,10 +35,25 @@ education:
   courses:
     - course: Ph.D. in Computer Science
       institution: Peking University
-      year: 2022 - present
+      year: 2022 - Present
     - course: B.S. (Summa Cum Laude) in Computer Science
       institution: Peking University
       year: 2018 - 2022
+
+experience:
+  courses:
+    - course: Research Intern
+      institution: Meituan
+      year: Jun. 2024 - Present
+    - course: Research Intern
+      institution: Shanghai AI Lab NDS Group
+      year: Oct. 2023 - Jun. 2024  
+    - course: Research Intern
+      institution: Alibaba Group DAMO Academy
+      year: Nov. 2021 - Sept. 2023
+    - course: Research Intern
+      institution: Tencent TEG
+      year: Apr. 2021 - Jun. 2021
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -77,5 +92,5 @@ email: ''
 highlight_name: true
 ---
 
-I am a Ph.D. student in the School of Computer Science at Peking University, advised by <a href=https://xinjin.github.io>Xin Jin</a>. My research interests include machine learning systems, video conferencing, and cloud computing. I received my B.S. degree (Summa Cum Laude) in computer science from Turing Class, Peking University. I was a research intern at Tencent and Alibaba.
+I am a Ph.D. student in the School of Computer Science at Peking University, advised by <a href=https://xinjin.github.io>Xin Jin</a>. Before that, I received my B.S. degree (Summa Cum Laude) in computer science from Turing Class, Peking University. My research interests include machine learning systems, video conferencing, and cloud computing.
 {style="text-align: justify;"}

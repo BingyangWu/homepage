@@ -1,23 +1,37 @@
 ---
-title: 'Transparent GPU Sharing in Container Clouds for Deep Learning Workloads'
+title: 'A survey of resource-efficient llm and multimodal foundation models'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+  - Mengwei Xu
+  - Wangsong Yin
+  - Dongqi Cai
+  - Rongjie Yi
+  - Daliang Xu
+  - Qipeng Wang
   - Bingyang Wu
-  - Zili Zhang
-  - Zhihao Bai
-  - Xuanzhe Liu
+  - Yihao Zhao
+  - Chen Yang
+  - Shihe Wang
+  - Qiyang Zhang
+  - Zhenyan Lu
+  - Li Zhang
+  - Shangguang Wang
+  - Yuanchun Li
+  - Yunxin Liu
   - Xin Jin
+  - Xuanzhe Liu
+
 
 # # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2023-04-17T00:00:00Z'
-doi: ''
+date: '2024-01-16T00:00:00Z'
+doi: 'https://arxiv.org/abs/2401.08092'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2017-01-01T00:00:00Z'
@@ -26,15 +40,11 @@ publishDate: '2017-01-01T00:00:00Z'
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ['1']
+publication_types: ['3']
 
-# Publication name and optional abbreviated publication name.
-publication: In *Symposium on Network System Design and Implementation*
-publication_short: In *NSDI 2023*
+publication_short: In *Preprint*
 
-abstract: 'Containers are widely used for resource management in datacenters. A common practice to support deep learning (DL) training in container clouds is to statically bind GPUs to containers in entirety. Due to the diverse resource demands of DL jobs in production, a significant number of GPUs are underutilized. As a result, GPU clusters have low GPU utilization, which leads to a long job completion time because of queueing.
-
-We present TGS (Transparent GPU Sharing), a system that provides transparent GPU sharing to DL training in container clouds. In stark contrast to recent application-layer solutions for GPU sharing, TGS operates at the OS layer beneath containers. Transparency allows users to use any software to develop models and run jobs in their containers. TGS leverages adaptive rate control and transparent unified memory to simultaneously achieve high GPU utilization and performance isolation. It ensures that production jobs are not greatly affected by opportunistic jobs on shared GPUs. We have built TGS and integrated it with Docker and Kubernetes. Experiments show that (i) TGS has little impact on the throughput of production jobs; (ii) TGS provides similar throughput for opportunistic jobs as the state-of-the-art application-layer solution AntMan, and improves their throughput by up to 15× compared to the existing OS-layer solution MPS.'
+abstract: 'Large foundation models, including large language models (LLMs), vision transformers (ViTs), diffusion, and LLM-based multimodal models, are revolutionizing the entire machine learning lifecycle, from training to deployment. However, the substantial advancements in versatility and performance these models offer come at a significant cost in terms of hardware resources. To support the growth of these large models in a scalable and environmentally sustainable way, there has been a considerable focus on developing resource-efficient strategies. This survey delves into the critical importance of such research, examining both algorithmic and systemic aspects. It offers a comprehensive analysis and valuable insights gleaned from existing literature, encompassing a broad array of topics from cutting-edge model architectures and training/serving algorithms to practical system designs and implementations. The goal of this survey is to provide an overarching understanding of how current approaches are tackling the resource challenges posed by large foundation models and to potentially inspire future breakthroughs in this field.'
 
 # # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -49,7 +59,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://www.usenix.org/conference/nsdi23/presentation/wu'
+url_pdf: 'https://arxiv.org/abs/2401.08092'
 url_code: ''
 url_dataset: ''
 url_poster: ''
