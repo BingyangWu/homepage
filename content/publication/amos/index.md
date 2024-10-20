@@ -11,7 +11,7 @@ authors:
   - Yicheng Jin
   - Qin Han
   - Liqiang Lu
-  - Bingyang Wu
+  - admin
   - Xiuhong Li
   - Shengen Yan
   - Yun Liang

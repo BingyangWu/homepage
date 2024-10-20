@@ -1,5 +1,5 @@
 ---
-title: 'A survey of resource-efficient llm and multimodal foundation models'
+title: 'A Survey of Resource-efficient LLM and Multimodal Foundation Models'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -11,7 +11,7 @@ authors:
   - Rongjie Yi
   - Daliang Xu
   - Qipeng Wang
-  - Bingyang Wu
+  - admin
   - Yihao Zhao
   - Chen Yang
   - Shihe Wang

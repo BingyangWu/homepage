@@ -5,7 +5,7 @@ title: 'dLoRA: Dynamically Orchestrating Requests and Adapters for LoRA LLM Serv
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Bingyang Wu
+  - admin
   - Ruidong Zhu
   - Zili Zhang
   - Peng Sun
@@ -33,7 +33,7 @@ publication_types: ['1']
 publication: In *Symposium on Operating Systems Design and Implementation*
 publication_short: In *OSDI 2024*
 
-abstract: ''
+abstract: 'Low-rank adaptation (LoRA) is a popular approach to finetune pre-trained large language models (LLMs) to specific domains. This paper introduces dLoRA, an inference serving system for LoRA models. dLoRA achieves high serving efficiency by dynamically orchestrating requests and LoRA adapters in terms of two aspects: (i) dynamically merge and unmerge adapters with the base model; and (ii) dynamically migrate requests and adapters between different worker replicas. These capabilities are designed based on two insights. First, despite the allure of batching without merging a LoRA adapter into the base model, it is not always beneficial to unmerge, especially when the types of requests are skewed. Second, the autoregressive nature of LLM requests introduces load imbalance between worker replicas due to varying input and output lengths, even if the input requests are distributed uniformly to the replicas. We design a credit-based batching algorithm to decide when to merge and unmerge, and a request-adapter co-migration algorithm to decide when to migrate. The experimental results show that dLoRA improves the throughput by up to 57.9× and 26.0×, compared to vLLM and HugginFace PEFT, respectively. Compared to the concurrent work S-LoRA, dLoRA achieves up to 1.8× lower average latency.'
 
 # # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -48,7 +48,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://www.usenix.org/conference/osdi24/presentation/wu-bingyang'
 url_code: ''
 url_dataset: ''
 url_poster: ''

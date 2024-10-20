@@ -14,7 +14,7 @@ last_name: Wu
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. Student
+role: Ph.D. Candidate
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -92,5 +92,5 @@ email: ''
 highlight_name: true
 ---
 
-I am a Ph.D. student in the School of Computer Science at Peking University, advised by <a href=https://xinjin.github.io>Xin Jin</a>. Before that, I received my B.S. degree (Summa Cum Laude) in computer science from Turing Class, Peking University. My research interests include machine learning systems, video conferencing, and cloud computing.
+I am a Ph.D. candidate in the School of Computer Science at Peking University, advised by <a href=https://xinjin.github.io>Xin Jin</a>. Before that, I received my B.S. degree (Summa Cum Laude) in computer science from Turing Class, Peking University. My research interests include machine learning systems, video conferencing, and cloud computing.
 {style="text-align: justify;"}

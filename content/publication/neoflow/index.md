@@ -9,7 +9,7 @@ authors:
   - Renze Chen
   - Yicheng Jin
   - Anjiang Wei
-  - Bingyang Wu
+  - admin
   - Xiuhong Li
   - Shengen Yan
   - Yun Liang
