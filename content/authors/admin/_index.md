@@ -33,10 +33,10 @@ bio: My research interests include machine learning systems, video conferencing 
 # Education to show in About widget
 education:
   courses:
-    - course: Ph.D. in Computer Science
+    - course: Ph.D. in Computer Software and Theory
       institution: Peking University
       year: 2022 - Present
-    - course: B.S. (Summa Cum Laude) in Computer Science
+    - course: B.S. (Summa Cum Laude) in Computer Science and Technology
       institution: Peking University
       year: 2018 - 2022
 
@@ -44,7 +44,7 @@ experience:
   courses:
     - course: Research Intern
       institution: Meituan
-      year: Jun. 2024 - Present
+      year: Jun. 2024 - Oct. 2024
     - course: Research Intern
       institution: Shanghai AI Lab, NDS Group
       year: Oct. 2023 - Jun. 2024  

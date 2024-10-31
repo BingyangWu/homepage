@@ -1,5 +1,5 @@
 ---
-title: 'LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism'
+title: 'LoongServe: Efficiently Serving Long-Context Large Language Models with Elastic Sequence Parallelism'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
