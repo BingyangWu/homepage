@@ -214,14 +214,6 @@ sections:
   #     view: showcase
   #     # For Showcase view, flip alternate rows?
   #     flip_alt_rows: false
-  # - block: markdown
-  #   content:
-  #     title: Gallery
-  #     subtitle: ''
-  #     text: |-
-  #       {{< gallery album="demo" >}}
-  #   design:
-  #     columns: '1'
   # - block: collection
   #   id: featured
   #   content:
@@ -249,6 +241,20 @@ sections:
     design:
       columns: '2'
       view: citation
+  - block: markdown
+    content:
+      title: 'Services & Teaching'
+      subtitle: ''
+      text: |-
+        ### Services
+        - **Shadow Program Committee**, European Conference on Computer Systems (EuroSys), 2026
+        - **Reviewer**, IEEE Transactions on Networking (IEEE ToN), 2025
+        - **Shadow Program Committee**, European Conference on Computer Systems (EuroSys), 2025
+
+        ### Teaching
+        - **Teaching Assistant**, Introduction to Computation (A), 2022 Fall
+    design:
+      columns: '1'
   # - block: collection
   #   id: talks
   #   content:
