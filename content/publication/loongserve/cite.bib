@@ -1,6 +1,17 @@
-@article{wu2024loongserve,
-  title={LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism},
-  author={Wu, Bingyang and Liu, Shengyu and Zhong, Yinmin and Sun, Peng and Liu, Xuanzhe and Jin, Xin},
-  journal={arXiv preprint arXiv:2404.09526},
-  year={2024}
+@inproceedings{10.1145/3694715.3695948,
+author = {Wu, Bingyang and Liu, Shengyu and Zhong, Yinmin and Sun, Peng and Liu, Xuanzhe and Jin, Xin},
+title = {LoongServe: Efficiently Serving Long-Context Large Language Models with Elastic Sequence Parallelism},
+year = {2024},
+isbn = {9798400712517},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3694715.3695948},
+doi = {10.1145/3694715.3695948},
+abstract = {The context window of large language models (LLMs) is rapidly increasing, leading to a huge variance in resource usage between different requests as well as between different phases of the same request. Restricted by static parallelism strategies, existing LLM serving systems cannot efficiently utilize the underlying resources to serve variable-length requests in different phases. To address this problem, we propose a new parallelism paradigm, elastic sequence parallelism (ESP), to elastically adapt to the variance across different requests and phases. Based on ESP, we design and build LoongServe, an LLM serving system that (1) improves computation efficiency by elastically adjusting the degree of parallelism in real-time, (2) improves communication efficiency by reducing key-value cache migration overhead and overlapping partial decoding communication with computation, and (3) improves GPU memory efficiency by reducing key-value cache fragmentation across instances. Our evaluation under diverse real-world datasets shows that LoongServe improves the throughput by up to 3.85\texttimes{} compared to chunked prefill and 5.81\texttimes{} compared to prefill-decoding disaggregation.},
+booktitle = {Proceedings of the ACM SIGOPS 30th Symposium on Operating Systems Principles},
+pages = {640–654},
+numpages = {15},
+keywords = {inference serving, large language models, elastic sequence parallelism},
+location = {Austin, TX, USA},
+series = {SOSP '24}
 }

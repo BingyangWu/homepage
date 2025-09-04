@@ -1,5 +1,5 @@
 ---
-title: 'RLHFuse: Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion'
+title: 'Optimizing RLHF Training for Large Language Models with Stage Fusion'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -17,7 +17,7 @@ authors:
   - Yibo Zhu
   - Xin Jin
 
-date: "2024-09-02T00:00:00Z"
+date: "2025-04-28T00:00:00Z"
 # doi: '10.48550/arXiv.2305.05920'
 
 # Schedule page publish date (NOT publication's date).
@@ -27,12 +27,11 @@ date: "2024-09-02T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ['3']
+publication_types: ['1']
 
-publication_short: In *Preprint*
+publication_short: In *NSDI 2025*
 
-abstract: 'Reinforcement Learning from Human Feedback (RLHF) enhances the alignment between LLMs and human preference. The workflow of RLHF typically involves several models and tasks in a series of distinct stages. Existing RLHF training systems view each task as the smallest execution unit thus overlooking the opportunities for subtask-level optimizations. Due to the intrinsic nature of RLHF training, i.e., the data skewness in the generation stage, and the pipeline bubbles in the training stage, existing RLHF systems suffer from low GPU utilization in production deployments.
-RLHFuse breaks the traditional view of RLHF workflow as a composition of individual tasks, splitting each task into finer-grained subtasks, and performing stage fusion to improve GPU utilization. RLHFuse contains two key ideas. First, for generation and inference tasks, RLHFuse splits them into sample-level subtasks, enabling efficient inter-stage fusion to mitigate the original generation bottleneck dominated by long-tailed samples. Second, for training tasks, RLHFuse breaks them into subtasks of micro-batches. By leveraging the intuition that pipeline execution can be essentially complemented by another pipeline, RLHFuse performs intra-stage fusion to concurrently execute these subtasks in the training stage with a fused pipeline schedule, resulting in fewer pipeline bubbles. In addition, RLHFuse incorporates a series of system optimizations tailored for each stage of RLHF, making it efficient and scalable for our internal product usage. We evaluate RLHFuse on various popular LLMs and the results show that RLHFuse increases the training throughput by up to 3.7x, compared to existing state-of-the-art systems.'
+abstract: 'We present RLHFuse, an efficient training system with stage fusion for Reinforcement Learning from Human Feedback (RLHF). Due to the intrinsic nature of RLHF training, i.e., the data skewness in the generation stage and the pipeline bubbles in the training stage, existing RLHF systems suffer from low GPU utilization. RLHFuse breaks the traditional view of RLHF workflow as a composition of individual tasks, splitting each task into finer-grained subtasks, and performing stage fusion to improve GPU utilization. RLHFuse contains two key ideas. First, for generation and inference tasks, RLHFuse splits them into sample-level subtasks, enabling efficient inter-stage fusion to overlap the execution of generation and inference stages, thus mitigating the original generation bottleneck dominated by long-tailed samples. Second, for training tasks, RLHFuse breaks them into subtasks of micro-batches and performs intra-stage fusion to concurrently execute these subtasks in the training stage with a fused pipeline schedule, effectively mitigating the pipeline bubbles. The experiments show that RLHFuse increases the training throughput by up to 3.7×, compared to existing systems.'
 
 # Summary. An optional shortened abstract.
 tags: []
@@ -44,7 +43,7 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: http://example.org
-url_pdf: 'https://www.arxiv.org/pdf/2409.13221'
+url_pdf: 'https://www.usenix.org/conference/nsdi25/presentation/zhong'
 url_code: ''
 url_dataset: ''
 url_poster: ''

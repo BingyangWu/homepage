@@ -22,7 +22,7 @@ organizations:
     url: https://english.pku.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include machine learning systems, video conferencing and cloud computing.
+bio: My research interests include machine learning systems, distributed systems, and cloud computing.
 
 # # Interests to show in About widget
 # interests:
@@ -42,6 +42,9 @@ education:
 
 experience:
   courses:
+    - course: Research Intern
+      institution: StepFun
+      year: Oct. 2024 - Sept. 2025
     - course: Research Intern
       institution: Meituan
       year: Jun. 2024 - Oct. 2024
@@ -92,5 +95,5 @@ email: ''
 highlight_name: true
 ---
 
-I am a Ph.D. candidate in the School of Computer Science at Peking University, advised by <a href=https://xinjin.github.io>Xin Jin</a>. Before that, I received my B.S. degree (Summa Cum Laude) in computer science from Turing Class, Peking University. My research interests include machine learning systems, video conferencing, and cloud computing.
+I am a Ph.D. candidate in the School of Computer Science at Peking University, advised by <a href=https://xinjin.github.io>Xin Jin</a>. Before that, I received my B.S. degree (Summa Cum Laude) in computer science from <a href=https://cfcs.pku.edu.cn/english/research/turing_program/introduction1/index.htm>Turing Class</a>, Peking University. My research interests include machine learning systems, distributed systems, and cloud computing.
 {style="text-align: justify;"}

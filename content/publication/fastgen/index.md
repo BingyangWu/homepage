@@ -8,6 +8,9 @@ authors:
   - admin
   - Yinmin Zhong
   - Zili Zhang
+  - Shengyu Liu
+  - Fangyue Liu
+  - Yuanhang Sun
   - Gang Huang
   - Xuanzhe Liu
   - Xin Jin
@@ -18,7 +21,7 @@ author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: "2023-05-10T00:00:00Z"
+date: "2025-07-24T00:00:00Z"
 doi: '10.48550/arXiv.2305.05920'
 
 # Schedule page publish date (NOT publication's date).
@@ -30,7 +33,7 @@ doi: '10.48550/arXiv.2305.05920'
 # 7 = Thesis; 8 = Patent
 publication_types: ['3']
 
-publication_short: In *Preprint*
+publication_short: In *NSDI 2026 (To appear)*
 
 abstract: 'Large language models (LLMs) power a new generation of interactive AI applications exemplified by ChatGPT. The interactive nature of these applications demand low job completion time (JCT) for model inference. Existing LLM serving systems use run-to-completion processing for inference jobs, which suffers from head-of-line blocking and long JCT. We present FastServe, a distributed inference serving system for LLMs. FastServe exploits the autoregressive pattern of LLM inference to enable preemption at the granularity of each output token. FastServe uses preemptive scheduling to minimize JCT with a novel skip-join Multi-Level Feedback Queue scheduler. Based on the new semi information-agnostic setting of LLM inference, the scheduler leverages the input length information to assign an appropriate initial queue for each arrival job to join. The higher priority queues than the joined queue are skipped to reduce demotions. We design an efficient GPU memory management mechanism that proactively offloads and uploads intermediate states between GPU memory and host memory for LLM inference. We build a system prototype of FastServe based on NVIDIA FasterTransformer. Experimental results show that compared to the state-of-the-art solution Orca, FastServe improves the average and tail JCT by up to 5.1× and 6.4×, respectively.'
 

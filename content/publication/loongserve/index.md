@@ -12,8 +12,8 @@ authors:
   - Xuanzhe Liu
   - Xin Jin
 
-date: "2024-09-23T00:00:00Z"
-doi: '' #'https://arxiv.org/abs/2404.09526'
+date: "2024-11-15T00:00:00Z"
+doi: 'https://dl.acm.org/doi/10.1145/3694715.3695948'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2017-01-01T00:00:00Z'
@@ -40,7 +40,7 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: http://example.org
-url_pdf: '' # 'https://arxiv.org/abs/2404.09526'
+url_pdf: 'https://dl.acm.org/doi/10.1145/3694715.3695948'
 url_code: ''
 url_dataset: ''
 url_poster: ''
